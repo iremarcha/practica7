@@ -18,7 +18,7 @@ script:
 - python ./manage.py test --keepdb
 deploy:
   provider: heroku
-  app: heroku-meet-travis
+  app: app-prueba-zapdos
   strategy: git
   api_key:
     secure: UHgpttlXLSLHRt0ulKYYIiwjSwHC17pUZnbvOFVlCuSGpVcUYu4bvlCpd026MfBfKE07MPVC5+zDYCiNlHEXQJuknpk+tVruBVfTHrjGb7SNgeojYgF6gDTuuNQ/QjTgoN8+TYg972lZS1AQC9b7EdshLrp+FtCmPG5Vd7eC1PpeTDMopGM8bbUlKQ5Q5UpgsnouUF1I+3tKu/hHVhQ2z6dz4D1aSDD1U/kKqpVwrtCyEIiaPIKdjZG1vGcm00dynUI1t0WtU+BVCwMmnRwCsRl9WuMlRul59CWXsE3U4K7fNNxS7/4aoVhc7xniae9tW5hXkiXrYohAivTl+IemxJEBWaKRC2JljzzJEX3hBl5+2+x6nf/W8PZduQyTcuQ11B6lA/mz/SDeid0NszDwGjn2OOi2Or1AI5t0hBHlRbqJSCdwMs6gP3LwKldRuA++rEbfO0ruATycH6KP7vm9fItSJ4P4+2eQfoZ9lsunNZn3eTPIZDXvnWzbLNhW0SvkHvW+MrYxeG0PbES8aKTi7XeIGlNDqPP4/+1FKyq1sIAH/tHxA/SIv1mpjBufSmWalC5uQXZVrgoQijMpGz6UrkGdyGZtnpFhkkyjbxugxWRFHj69dFXfWKNcyic7pV8qjoBfwoWGL1s/SPB7mto2K/N6dEYMca93YBOuyDjNZHk=
